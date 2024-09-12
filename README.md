@@ -31,6 +31,8 @@ __repr__: Returns an official string representation of an object.
 __len__: Returns the length of an object.
 __getitem__: Gets an item from a container.
 __setitem__: Sets an item in a container.
+
+
 3. Operator Overloading 🔄
 Operator overloading allows you to define the behavior of operators (+, -, *, etc.) for custom objects.
 
@@ -40,5 +42,7 @@ __sub__(self, other): Subtracts two objects using the - operator.
 __mul__(self, other): Multiplies two objects using the * operator.
 __truediv__(self, other): Divides two objects using the / operator.
 __eq__(self, other): Checks if two objects are equal using the == operator.
+
+
 4. Custom Exceptions 🚨
 You can create your own exceptions by defining a new exception class that inherits from the built-in Exception class.
