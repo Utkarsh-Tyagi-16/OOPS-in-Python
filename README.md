@@ -21,7 +21,7 @@ Polymorphism: Allows methods to do different things based on the object’s clas
 Example: class Animal: with a method make_sound(), and class Dog(Animal): overriding make_sound() to bark.
 
 
-2. Magic Methods ✨
+5. Magic Methods ✨
 Magic methods, also known as dunder methods (double underscore methods), allow you to define the behavior of objects for built-in operations.
 
 Common Magic Methods:
@@ -39,7 +39,7 @@ __getitem__: Gets an item from a container.
 __setitem__: Sets an item in a container.
 
 
-3. Operator Overloading 🔄
+6. Operator Overloading 🔄
 Operator overloading allows you to define the behavior of operators (+, -, *, etc.) for custom objects.
 
 
@@ -56,5 +56,5 @@ __truediv__(self, other): Divides two objects using the / operator.
 __eq__(self, other): Checks if two objects are equal using the == operator.
 
 
-4. Custom Exceptions 🚨
+7. Custom Exceptions 🚨
 You can create your own exceptions by defining a new exception class that inherits from the built-in Exception class.
